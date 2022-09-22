@@ -16,7 +16,7 @@ profitOrLoss = totalReceived - totalPaid
 #Input Statements
 amountPaidForStock = float(input("numShares * purchasePrice"))
 purchaseCommission = float(input("commissionRate * amountPaidForStock"))
-totalPaid = totalPaidfloat(input("amountPaidForStock + purchaseCommission"))
+totalPaid = float(input("amountPaidForStock + purchaseCommission"))
 stockSoldFor = float(input("numShares * sellingPrice"))
 sellingCommission = float(input("commissionRate * stockSoldFor"))
 totalReceived = float(input("stockSoldFor - sellingCommission"))
