@@ -14,13 +14,13 @@ sellingCommission = commissionRate * stockSoldFor
 totalReceived = stockSoldFor - sellingCommission
 profitOrLoss = totalReceived - totalPaid
 #Input Statements
-amountPaidForStock = float(input("numShares * purchasePrice"))
-purchaseCommission = float(input("commissionRate * amountPaidForStock"))
-totalPaid = float(input("amountPaidForStock + purchaseCommission"))
-stockSoldFor = float(input("numShares * sellingPrice"))
-sellingCommission = float(input("commissionRate * stockSoldFor"))
-totalReceived = float(input("stockSoldFor - sellingCommission"))
-profitOrLoss = float(input("totalReceived - totalPaid"))
+amountPaidForStock = float(input("Enter amount paid for stock: "))
+purchaseCommission = float(input("Enter commission paid on the purchase: "))
+totalPaid = float(input("Enter total paid: "))
+stockSoldFor = float(input("Enter amount the stock sold for: "))
+sellingCommission = float(input("Enter commission paid on the sale: "))
+totalReceived = float(input("Enter total received: "))
+profitOrLoss = float(input("Enter profit (or loss if negative): "))
 #Display
 print ("Amount paid for stock: $", amountPaidForStock)
 print ("Commission paid on the purchase: $", purchaseCommission)
