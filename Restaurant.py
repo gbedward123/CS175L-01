@@ -22,3 +22,10 @@ if response == "(NOT vegan)":
     print ("Main Street Pizza")
     print ("Corner Cafe")
     print ("Chef's Kitchen")
+#Loops
+another_restaurant_search = 'yes'
+while another_restaurant_search == 'yes':
+    response = input('enter yes or no: ')
+    print(response)
+    another_restaurant_search = input("Enter 'yes' if you would like to do another restaurant search (enter 'no' to end): ")
+    
