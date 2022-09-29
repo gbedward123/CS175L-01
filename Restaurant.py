@@ -13,7 +13,7 @@ if response == "Yes" or response == "yes":
 response = input("Is anyone in your party gluten free? ").lower()
 if response == "Yes" or response == "yes":
     gluten_free = True
-input("Here are your restaurant choices:")
+print("Here are your restaurant choices:")
 if response == "(NOT vegetarian) AND (NOT vegan) AND (NOT gluten_free)":
     print ("Joe's Gourmet Burgers")
 if response == "(NOT vegan) AND (NOT gluten_free)":
