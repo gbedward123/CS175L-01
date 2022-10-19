@@ -1,12 +1,12 @@
 #Gillian Bedward
 #Average and Grade Assignment
 def main():
-    score1 = float(input("Score 1: "))
-    score2 = float(input("Score 2: "))
-    score3 = float(input("Score 3: "))
-    score4 = float(input("Score 4: "))
-    score5 = float(input("Score 5: "))
-    return [score1, score2, score3, score4, score5]
+    score_one = float(input("Score 1: "))
+    score_two = float(input("Score 2: "))
+    score_three = float(input("Score 3: "))
+    score_four = float(input("Score 4: "))
+    score_five = float(input("Score 5: "))
+    return [score_one, score_two, score_three, score_four, score_five]
 def determine_grade(num):
     if 90 <= num <= 100:
         letter_grade = "A"
