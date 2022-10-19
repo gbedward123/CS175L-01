@@ -1,3 +1,5 @@
+#Gillian Bedward
+#Average and Grade Assignment
 def main():
     score1 = float(input("Score 1: "))
     score2 = float(input("Score 2: "))
